@@ -252,7 +252,7 @@ def main():
             #提升小型和中型敌机速度
             inc_speed(small_enemies,1)
             inc_speed(mid_enemies,1)
-        elif level == 4and score > 1000000:
+        elif level == 4 and score > 1000000:
             level = 5
             upgrade_sound.play()
             #增加五架小型敌机，三架中型敌机，两架大型敌机
